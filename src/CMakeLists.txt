@@ -13,4 +13,5 @@ add_library(api OBJECT api.cpp)
 link_libraries(api)
 
 add_executable(client client/client_randomio.cpp)
+add_executable(ELSBot client/client_evaks.cpp)
 add_subdirectory(server)
